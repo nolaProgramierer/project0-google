@@ -1,0 +1,66 @@
+//styles0.scss
+// Variables
+$g_blue: #4285F4;
+$g_red: #DB4437;
+$g_yellow: #F4B400;
+$g_green: #0F9D58;
+$submit_button: #E8E8E8;
+$submit_button_border: #D3D3D3;
+
+body{
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+#title {
+  h1 {
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: "Kulim Park", sans-serif;
+  }
+}
+#search-form {
+  text-align: center;
+}
+#input-box {
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 2rem;
+  width: 450px;
+}
+#submit {
+  text-align: center;
+  margin-top: 15px;
+}
+.nav {
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: .8rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  text-align: right;
+}
+#search-button {
+  background-color: $submit_button;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  &:hover {
+    border: 1px solid $submit_button_border;
+  }
+}
+#l0 {
+  color: $g_blue;
+}
+#l1 {
+  color: $g_red;
+}
+#l2 {
+  color: $g_yellow;
+}
+#l3 {
+  color: $g_green;
+}
