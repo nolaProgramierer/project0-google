@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles0.css">
+        <!--Google fonts api link-->
+        <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap" rel="stylesheet">
     </head>
     <body>
-      <a href="index.html">Back</a>
+      <div class="nav">
+        <a href="index.html">Back</a>
+      </div>
+      <div id="advanced-banner">
+        Advanced Search
+      </div>
+      <hr>
+      <div id="form-div">
+        <p>
+          Find pages with...
+        </p>
+      </div>
+      
         <form action="https://google.com/search">
-          <div>
-            <input type="text" name="as_q">
+          <div class="grid">
+            <div class="grid-item">all these words:</div>
+            <div class="grid-item">
+              <input type="text" name="as_q">
+              <input type="hidden" name="as_qdr" value="all">
+              <input type="hidden" name="as_occt" value="any">
+              <input type="hidden" name="safe" value="images">
+            </div>
+          
+          
+            <div class="grid-item">this exact word of phrase:</div>
+            <div class="grid-item">
+              <input type="text" name="as_epq">
+              <input type="hidden" name="as_qdr" value="all">
+              <input type="hidden" name="as_occt" value="any">
+              <input type="hidden" name="safe" value="images">
+            </div>
+          
+          
+          
+            <div class="grid-item">any of these words:</div>
+            <div class="grid-item"><input type="text" name="as_oq">
+              <input type="hidden" name="as_qdr" value="all">
+              <input type="hidden" name="as_occt" value="any">
+              <input type="hidden" name="safe" value="images">
+            </div>
+          
+            
+          
+          
+          <div class="grid-item">none of these words:</div>
+          <div class="grid-item"><input type="text" name="as_eq">
             <input type="hidden" name="as_qdr" value="all">
             <input type="hidden" name="as_occt" value="any">
             <input type="hidden" name="safe" value="images">
-            <input type="submit" value="All Words">
           </div>
-          <div>
-            <input type="text" name="as_epq">
-            <input type="hidden" name="as_qdr" value="all">
-            <input type="hidden" name="as_occt" value="any">
-            <input type="hidden" name="safe" value="images">
-            <input type="submit" value="Exact Words">\
+          <div class="grid-item"><input type="submit" value="Advanced Search">
           </div>
-          <div>
-            <input type="text" name="as_oq">
-            <input type="hidden" name="as_qdr" value="all">
-            <input type="hidden" name="as_occt" value="any">
-            <input type="hidden" name="safe" value="images">
-            <input type="submit" value="Any Words">
-          </div>
-          <div>
-            <input type="text" name="as_eq">
-            <input type="hidden" name="as_qdr" value="all">
-            <input type="hidden" name="as_occt" value="any">
-            <input type="hidden" name="safe" value="images">
-            <input type="submit" value="None of Words">
-          </div>
+        </div>
+            
+          
         </form>
     </body>
 </html>

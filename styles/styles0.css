@@ -65,4 +65,21 @@ body {
 #image-logo {
   color: lightskyblue; }
 
+#advanced-banner {
+  margin: 20px 0px 20px 0px;
+  font-size: 1.25rem; }
+
+hr {
+  border-top: 1px solid lightgrey; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px auto; }
+
+.grid-item {
+  font-size: .8rem; }
+  .grid-item input[type="text"] {
+    width: 400px;
+    border: 1px solid lightgrey; }
+
 /*# sourceMappingURL=styles0.css.map */

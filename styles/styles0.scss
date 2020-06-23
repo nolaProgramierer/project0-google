@@ -43,7 +43,6 @@ body{
     outline: none;
   }
 }
-
 .submit {
   text-align: center;
   margin-top: 15px;
@@ -82,4 +81,24 @@ body{
 }
 #image-logo {
   color: lightskyblue;
+}
+#advanced-banner {
+  margin: 20px 0px 20px 0px;
+  font-size: 1.25rem;
+}
+hr {
+  border-top: 1px solid lightgrey;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+.grid-item {
+  font-size: .8rem;
+  input[type="text"] {
+    width: 400px;
+    border: 1px solid lightgrey;
+  }
 }
