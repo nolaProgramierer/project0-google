@@ -42,9 +42,21 @@ body{
     outline: none;
   }
 }
-.submit {
+#image-submit {
   text-align: center;
   margin-top: 15px;
+}
+#submit-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  justify-items: center;
+}
+#google-submit {
+  grid-column: 2 / 3;
+}
+#lucky-submit {
+  grid-column: 3 / 4;
 }
 .nav {
   a {
@@ -62,6 +74,7 @@ body{
   border: none;
   border-radius: 5px;
   height: 30px;
+  width: 120px;
   &:hover {
     border: 1px solid $submit_button_border;
   }
@@ -121,6 +134,5 @@ hr {
   h1{
     padding-top: 15px;
     margin-left: 20px;
-  }
-  
+  } 
 }

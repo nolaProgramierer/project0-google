@@ -29,9 +29,21 @@ body {
   .input-box:focus {
     outline: none; }
 
-.submit {
+#image-submit {
   text-align: center;
   margin-top: 15px; }
+
+#submit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  justify-items: center; }
+
+#google-submit {
+  grid-column: 2 / 3; }
+
+#lucky-submit {
+  grid-column: 3 / 4; }
 
 .nav {
   text-align: right; }
@@ -46,7 +58,8 @@ body {
   background-color: #E8E8E8;
   border: none;
   border-radius: 5px;
-  height: 30px; }
+  height: 30px;
+  width: 120px; }
   .search-button:hover {
     border: 1px solid #D3D3D3; }
 
