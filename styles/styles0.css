@@ -7,7 +7,7 @@ body {
   .nav a {
     color: black;
     text-decoration: none;
-    font-size: .8rem; }
+    font-size: 0.8rem; }
     .nav a:hover {
       text-decoration: underline; }
 
@@ -18,28 +18,28 @@ body {
   font-family: "Kulim Park", sans-serif; }
 
 #l0 {
-  color: #4285F4; }
+  color: #4285f4; }
 
 #l1 {
-  color: #DB4437; }
+  color: #db4437; }
 
 #l2 {
-  color: #F4B400; }
+  color: #f4b400; }
 
 #l3 {
-  color: #0F9D58; }
+  color: #0f9d58; }
 
 #image-logo {
   color: lightskyblue; }
 
 .search-button {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   border: none;
   border-radius: 5px;
   height: 30px;
   width: 120px; }
   .search-button:hover {
-    border: 1px solid #D3D3D3; }
+    border: 1px solid #d3d3d3; }
 
 .search-form {
   text-align: center; }
@@ -51,7 +51,7 @@ body {
   width: 450px;
   /* Google chrome adds element highlighting via outline property */ }
   .input-box:hover {
-    box-shadow: 0px 0px 3px 3px #F0F0F0; }
+    box-shadow: 0px 0px 3px 3px #f0f0f0; }
   .input-box:focus {
     outline: none; }
 
@@ -91,7 +91,7 @@ body {
   font-size: 1.25rem; }
 
 #header {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   height: 75px;
   margin: -21px -8px 0px -8px; }
   #header h1 {
@@ -110,7 +110,7 @@ hr {
   margin-left: 20px; }
 
 .grid-item-label {
-  font-size: .8rem;
+  font-size: 0.8rem;
   grid-column-start: 1;
   grid-column-end: 3; }
 
@@ -120,14 +120,14 @@ hr {
   border: 1px solid lightgrey;
   height: 25px; }
   .grid-item-input:hover {
-    box-shadow: 0px 0px 3px 3px #F0F0F0; }
+    box-shadow: 0px 0px 3px 3px #f0f0f0; }
 
 .grid-item-submit {
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 6;
   grid-column-end: 7;
-  background-color: #4285F4;
+  background-color: #4285f4;
   border: none;
   color: white;
   height: 2rem; }
